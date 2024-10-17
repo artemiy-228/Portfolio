@@ -1,0 +1,176 @@
+*{
+    font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.caption{
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #454545;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caption > .image{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.image > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+.caption > .label{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.label h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.label h1:hover{
+    text-shadow: none;
+}
+
+.label {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.label p {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #e8b234;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.main-body{
+    display: flex;
+    flex: 1;
+}
+
+.info-body{
+    padding: 20px 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #fae7da;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-body h2 {
+    font-weight: 200;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 5px 25px;
+    background-color: #424143;
+    border-radius: 4px;
+}
+
+
+.info-block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.info-block  a{
+    color: #424143;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.link-module{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.link-module img{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    transition: color 0.3s ease;
+}
+
+.link-module img:hover{
+    transform: scale(1.05);
+    transition: color 0.3s ease;
+}
+
+.info-block  a:hover{
+    color: #e8b234;
+    transform: scale(1.05);
+}
+
+.text-description {
+    text-align: center;
+    font-family: serif;
+    color: #7c6a52;
+    margin-top: 10px;
+}
+
+.text-description .degree {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.text-description .major {
+    font-size: 14px;
+}
+
+.text-description .university {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.text-description .year {
+    font-size: 12px;
+    font-style: italic;
+    color: #555;
+}
+
+
+.experience-body{
+    display: flex;
+    flex: 4;
+}
+
+.experience-body > .personality-block{
+    display: flex;
+    flex-direction: column;
+}
+
+
